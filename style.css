@@ -4,6 +4,9 @@
 
 body {
     display: flex;
+    background-color: #495159;
+    background-image: url("images/social_media.jpg");
+    background-size: cover;
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,22 +15,22 @@ body {
 }
 
 button {
-    background-color: rebeccapurple;
+    background-color: #388f6c;
     border: none;
     color: white;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
     padding: 1rem;
     transition: transform 0.3s ease-in-out;
 }
 
 button.active {
-    transform: translate(-100px);
+    transform: translateX(-100px);
 }
 
 nav {
-    background-color: rebeccapurple;
+    background-color: #388f6c;
     position: fixed;
     height: 100vh;
     top: 0;
@@ -52,6 +55,7 @@ nav ul li {
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
+    font-size: 35px;
 }
